@@ -1,0 +1,55 @@
+body{
+    background-color: #232323;
+}
+.logos {
+  display: flex;
+  justify-content: space-between; /* Esto separa los logos a izquierda y derecha */
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 2rem; /* Agrega espacio a los lados si lo deseas */
+}
+header {
+  background: #004080;
+  color: white;
+  padding: 1rem;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 1rem;
+}
+
+.header-flex img {
+  height: 80px;
+}
+
+.header-title {
+  flex: 1;
+}
+
+.header-title h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.header-title h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+/* .card {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}*/
